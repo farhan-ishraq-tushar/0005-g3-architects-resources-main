@@ -31,6 +31,13 @@
   .text-light-gray{
     color: #727272;
   }
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  main > section{
+    margin-top: 130px;
+  }
   /* header styles */
 
   /* navbar related styles */
@@ -74,6 +81,28 @@
   .banner-image{
     width: 100%;
   }
+
+/* team and feature related styles */
+.teams{
+    align-items: center;
+    max-width: 1318px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+ 
+}
+.out-features{
+    margin-left: 120px;
+    /* max-width: 530px; */
+}
+.feature-title{
+    font-size: 2.5rem;
+}
+#
 
   /* responsive media query */
   @media screen and (max-width:576px) {
