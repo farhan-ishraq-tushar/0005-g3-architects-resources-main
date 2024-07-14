@@ -12,7 +12,7 @@
     display: flex;
   }
   .bg-light{
-    color: rgba(255, 144, 14, 0.1);
+    background-color: rgba(255, 144, 14, 0.1);
   }
   /* dark 02 */
   .text-gray{
@@ -37,4 +37,8 @@
     text-decoration: none;
     font-weight: 500;
     font-size: 18px;
+  }
+  .nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
   }
